@@ -1,0 +1,18 @@
+{
+  "name": "endpoint-challenge",
+  "version": "1.0.0",
+  "description": "Endpoint - Backend Coding Challenge",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist",
+    "test": "vitest run",
+    "sample": "cat sample.txt | node dist"
+  },
+  "author": "Francisco Gudino",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3",
+    "vitest": "^2.0.3"
+  }
+}
