@@ -6,7 +6,8 @@
     "build": "tsc",
     "start": "node dist",
     "test": "vitest run",
-    "sample": "cat sample.txt | node dist"
+    "sample": "cat sample.txt | node dist",
+    "sample:windows": "type sample.txt | node dist"
   },
   "author": "Francisco Gudino",
   "license": "ISC",

@@ -18,21 +18,26 @@ npm run build
 ## Run The sample input
 
 ```bash
+# Linux
 npm run sample
+
+# Windows CMD or Powershell
+npm run sample:windows
 ```
 
 ## Run custom input
 
 ```bash
-# File input
+# File input (Linux)
 cat customFile.txt | npm start
 
+# File input (Windows CMD or Powershell)
+type customFile.txt | npm start
+
 # Pasting input
-echo "
-CREATE fruits
+echo "CREATE fruits
 CREATE vegetables
-...
-" | npm start
+LIST" | npm start
 ```
 
 ## Run unit tests for Directory and Commands
